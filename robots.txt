@@ -1,0 +1,5 @@
+User-agent: *
+Sitemap: https://orynb.com/sitemap.xml
+Disallow: /content/
+Disallow: /scripts/
+Disallow: /docs/

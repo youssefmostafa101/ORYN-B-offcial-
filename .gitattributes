@@ -1,0 +1,6 @@
+/content/** text eol=lf
+/scripts/*.mjs text eol=lf
+/blog/** text eol=lf
+/assets/blog.css text eol=lf
+/assets/blog/*.svg text eol=lf
+/sitemap.xml text eol=lf
