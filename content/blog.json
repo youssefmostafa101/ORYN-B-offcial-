@@ -1,0 +1,20 @@
+{
+  "name": "ORYN-B",
+  "origin": "https://orynb.com",
+  "theme": "oryn",
+  "blogLabel": "Journal",
+  "indexTitle": "Better questions.<br><em>Clearer answers.</em>",
+  "indexSeoTitle": "Training & Supplement Guides | ORYN-B Journal",
+  "indexIntro": "Plain-language guides to supplement research, product labels and the routines that deserve your attention.",
+  "homeLink": "/#products",
+  "homeLabel": "The products",
+  "navCtaLabel": "Read the labels",
+  "navCtaUrl": "/#ingredients",
+  "favicon": "/assets/blog/oryn-mark.svg",
+  "footer": "Performance and balance, with clear information before the first scoop.",
+  "standardTitle": "Read the evidence. Keep the context.",
+  "standardText": "We distinguish research on an ingredient from evidence for a finished product. Our journal is educational; it is not a substitute for individual medical advice.",
+  "ctaEyebrow": "KNOW WHAT YOU ARE TAKING",
+  "ctaTitle": "Start with the whole label.",
+  "ctaText": "Explore OUTPUT's listed ingredients and serving information. The site is currently pre-launch; check the final product label before use."
+}
