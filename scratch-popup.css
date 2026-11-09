@@ -36,3 +36,18 @@
 .signup-consent input{flex:0 0 auto;margin-top:3px}
 @media(max-width:620px){.launch-scratch-overlay{padding:9px;align-items:start}.launch-scratch-head{padding:42px 20px 17px}.launch-scratch-mark{margin-bottom:14px}.launch-scratch-head h2{font-size:32px}.launch-scratch-card{max-width:282px;height:167px}.launch-scratch-reward strong{font-size:27px}.launch-scratch-signup{padding:21px 20px 26px}.footer-links{flex-wrap:wrap;gap:14px}}
 @media(prefers-reduced-motion:reduce){.launch-scratch-overlay *{scroll-behavior:auto;animation:none!important;transition:none!important}}
+
+
+/* One native EmailOctopus signup widget, mounted in the inline section or scratch popup. */
+.eo-form-shell{width:100%}
+.eo-form-host{width:100%;max-width:100%;min-height:80px}
+.eo-form-host iframe,.eo-form-host form{max-width:100%}
+.eo-form-note{margin:13px 0 0!important;font-size:11px!important;line-height:1.65!important;color:#61705e!important}
+.eo-form-note a{text-decoration:underline;text-underline-offset:3px}
+.eo-launch-offer-button{width:100%;min-height:42px;margin:0 0 13px;padding:9px 12px;border:1px solid #8d9d91;border-radius:6px;background:transparent;color:#2c483a;font:700 10px var(--mono,monospace);letter-spacing:.04em}
+.eo-launch-offer-button:hover{background:#e8e0d2}
+.eo-form-popup-slot{max-width:100%;min-height:80px;border-radius:6px;overflow:visible}
+.launch-scratch-signup .eo-form-host{background:#fffefa;border-radius:7px;padding:7px}
+.launch-scratch-signup .eo-form-host iframe{max-width:100%}
+.launch-scratch-signup .eo-form-note{font-size:10px!important}
+@media(max-width:620px){.launch-scratch-signup .eo-form-host{padding:3px}.eo-form-popup-slot{max-width:100%}}
