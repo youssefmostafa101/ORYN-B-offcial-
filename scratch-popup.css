@@ -1,7 +1,8 @@
 /* ORYN-B first-drop scratch reveal. No external fonts or image dependencies. */
-.footer-social{display:inline-flex;align-items:center;justify-content:center;min-width:30px;min-height:30px;border:1px solid #8c9c8d66;border-radius:100%;transition:background .2s,transform .2s}
+.footer-social{display:inline-flex;align-items:center;justify-content:center;gap:7px;min-height:36px;padding:7px 11px;border:1px solid #8c9c8d66;border-radius:999px;white-space:nowrap;transition:background .2s,transform .2s}
 .footer-social:hover{background:#d5dbc9;transform:translateY(-2px)}
-.footer-social svg{width:15px;height:15px;display:block}
+.footer-social svg{width:18px;height:18px;display:block;flex:0 0 auto}
+.footer-social-label{font:700 10px/1.2 var(--sans,system-ui);letter-spacing:.01em}
 .launch-scratch-overlay[hidden],.launch-scratch-signup[hidden]{display:none!important}
 .launch-scratch-overlay{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;background:rgba(7,20,13,.78);backdrop-filter:blur(9px);padding:16px;overflow-y:auto}
 .launch-scratch-dialog{position:relative;isolation:isolate;width:min(100%,540px);margin:auto;border-radius:16px;overflow:hidden;box-shadow:0 35px 115px #030c0670;background:#183324;color:#f9f6ef;text-align:center;outline:0}
