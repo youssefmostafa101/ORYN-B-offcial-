@@ -1,0 +1,38 @@
+/* ORYN-B first-drop scratch reveal. No external fonts or image dependencies. */
+.footer-social{display:inline-flex;align-items:center;justify-content:center;min-width:30px;min-height:30px;border:1px solid #8c9c8d66;border-radius:100%;transition:background .2s,transform .2s}
+.footer-social:hover{background:#d5dbc9;transform:translateY(-2px)}
+.footer-social svg{width:15px;height:15px;display:block}
+.launch-scratch-overlay[hidden],.launch-scratch-signup[hidden]{display:none!important}
+.launch-scratch-overlay{position:fixed;inset:0;z-index:1000;display:grid;place-items:center;background:rgba(7,20,13,.78);backdrop-filter:blur(9px);padding:16px;overflow-y:auto}
+.launch-scratch-dialog{position:relative;isolation:isolate;width:min(100%,540px);margin:auto;border-radius:16px;overflow:hidden;box-shadow:0 35px 115px #030c0670;background:#183324;color:#f9f6ef;text-align:center;outline:0}
+.launch-scratch-dialog:before{content:'';position:absolute;z-index:-1;inset:-65% -30% auto;width:165%;aspect-ratio:1;border:1px solid #f8df9f1c;border-radius:50%;pointer-events:none}
+.launch-scratch-exit{position:absolute;right:14px;top:13px;z-index:4;width:37px;height:37px;background:#e9e4d30f;border:1px solid #fff5;border-radius:50%;color:white;font-size:23px;line-height:1;cursor:pointer}
+.launch-scratch-head{padding:38px 32px 23px;background:radial-gradient(ellipse at 50% 20%,#315840 0%,#193b2b 45%,#13261d 100%)}
+.launch-scratch-mark{font:700 11px/1.6 var(--mono,monospace);letter-spacing:.17em;color:#dacb9e;margin-bottom:22px}
+.launch-scratch-tag{font:10px/1.5 var(--mono,monospace);letter-spacing:.11em;color:#d9bc81;margin-bottom:11px}
+.launch-scratch-head h2{font:800 clamp(31px,6.5vw,45px)/1.07 var(--sans,system-ui);letter-spacing:-.06em;margin-bottom:12px}
+.launch-scratch-intro{color:#e0e6d8;font-size:13px;line-height:1.55;margin:0 auto 16px;max-width:345px}
+.launch-scratch-card{position:relative;isolation:isolate;width:min(100%,312px);height:178px;margin:0 auto 6px;border:1px solid #e6cd96;border-radius:10px;overflow:hidden;background:#e8d5a8;box-shadow:0 13px 31px #030d0760}
+.launch-scratch-reward{display:flex;flex-direction:column;justify-content:center;align-items:center;gap:7px;width:100%;height:100%;background:linear-gradient(134deg,#f5e8c0,#d7b16e);color:#173024}
+.launch-scratch-reward span{font:700 9px var(--mono,monospace);letter-spacing:.13em}
+.launch-scratch-reward strong{font:800 29px/1.07 var(--sans,system-ui);letter-spacing:-.055em}
+.launch-scratch-reward small{font:700 10px var(--mono,monospace);letter-spacing:.16em}
+.launch-scratch-card canvas{position:absolute;inset:0;width:100%;height:100%;touch-action:none;cursor:crosshair}
+.launch-scratch-card.is-revealed canvas{display:none}
+.launch-scratch-reveal{font:500 11px/1.4 var(--mono,monospace);color:#e6dfc4;background:transparent;border:0;border-bottom:1px solid #e6dfc48a;min-height:30px;cursor:pointer}
+.launch-scratch-disclosure{color:#bacbbb;font-size:10px;line-height:1.5;margin:10px auto 0;max-width:340px}
+.launch-scratch-signup{padding:24px 32px 31px;text-align:left;background:#f1eee6;color:#203428}
+.launch-scratch-signup h3{font:800 25px/1.1 var(--sans,system-ui);letter-spacing:-.045em;margin:2px 0 10px}
+.launch-scratch-signup p{font-size:12px;line-height:1.6;color:#536354;margin:0 0 14px}
+.launch-scratch-signup form{display:flex;flex-direction:column;gap:9px}
+.launch-scratch-signup form>label:first-child{font:700 10px var(--mono,monospace);color:#375745}
+.launch-scratch-signup input[type=email]{width:100%;height:49px;box-sizing:border-box;padding:0 13px;border:1px solid #b4bdad;border-radius:6px;background:white;color:#203428;font:15px var(--sans,system-ui)}
+.launch-scratch-consent{display:flex;align-items:flex-start;gap:8px;font-size:11px;line-height:1.5}
+.launch-scratch-consent input{flex:0 0 auto;margin-top:3px}
+.launch-scratch-consent a,.signup-consent a{text-decoration:underline;text-underline-offset:2px}
+.launch-scratch-signup button[type=submit]{width:100%;background:#2c483a;color:white;min-height:49px;margin-top:2px}
+.launch-scratch-status{min-height:18px;font-size:12px!important;color:#254b35!important;margin:0!important}
+.signup-consent{display:flex!important;align-items:flex-start;gap:9px;font:11px/1.55 var(--sans,system-ui)!important;color:#516052!important;margin:14px 0 0!important}
+.signup-consent input{flex:0 0 auto;margin-top:3px}
+@media(max-width:620px){.launch-scratch-overlay{padding:9px;align-items:start}.launch-scratch-head{padding:42px 20px 17px}.launch-scratch-mark{margin-bottom:14px}.launch-scratch-head h2{font-size:32px}.launch-scratch-card{max-width:282px;height:167px}.launch-scratch-reward strong{font-size:27px}.launch-scratch-signup{padding:21px 20px 26px}.footer-links{flex-wrap:wrap;gap:14px}}
+@media(prefers-reduced-motion:reduce){.launch-scratch-overlay *{scroll-behavior:auto;animation:none!important;transition:none!important}}
